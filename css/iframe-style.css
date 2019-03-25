@@ -1,0 +1,103 @@
+/* .iframe-container {
+  position: inherit;
+  overflow: scroll;
+} */
+
+
+
+@media screen and (max-height: 821px) {
+  body {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+
+    box-sizing: border-box !important;
+
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover,
+  a:link,
+  a:active {
+    text-decoration: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    position: absolute;
+    overflow: hidden;
+  }
+
+  .main-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 500px 100px;
+    transition: transform .3s ease;
+  }
+
+  .header {
+    width: 100%;
+    height: 56px;
+    background: black;
+  }
+
+  .header-container {
+    height: 100%;
+    padding: 0% 23%;
+    margin: 0% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  .bottom,
+  .right {
+    position: fixed;
+    background: black;
+  }
+
+  .right {
+    top: 0;
+    bottom: 0;
+    width: 4%;
+    right: 0;
+  }
+
+  .bottom {
+    left: 0;
+    right: 0;
+    height: 5.5%;
+    bottom: 0;
+  }
+
+  /* FOR FUTURE LOGO
+
+    .logo {
+      width: 100%;
+    } */
+
