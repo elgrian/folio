@@ -799,4 +799,50 @@
     left: 41%;
   }
 
+  /* Opening modal using CSS */
+  :target {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  :target .modal-item {
+    transform: translate(-50%, -50%) scale(3);
+  }
+
+
+  .iframe {
+    /* 2560+px width monitor */
+    position: absolute;
+    margin-left: 8.01%;
+    bottom: 3.98%;
+    height: 91.96%;
+    width: 89.99%;
+    border: black;
+
+  }
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    box-sizing: border-box !important;
+    overflow: hidden;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+  }
 
