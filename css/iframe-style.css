@@ -152,3 +152,49 @@
     transition: all .3s ease;
   }
 
+  .sub-list {
+    width: 15vw;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: black;
+  }
+
+
+  .sub-item {
+    color: #989797;
+    font-size: 80%;
+    padding: 8%;
+    position: relative;
+    align-self: stretch;
+    text-align: center;
+    z-index: 2;
+    transition: color .3s ease;
+  }
+
+  .sub-item:hover {
+    color: white;
+  }
+
+  .sub-item::before {
+    z-index: 1;
+  }
+
+  .nav-list-item:hover {
+    cursor: pointer;
+    color: gold;
+  }
+
+  .nav-list-item:hover .sub-list-container {
+    /* For show/hide feature */
+    visibility: visible;
+    opacity: 0.9;
+  }
+
+  .toggle-nav {
+    display: none;
+  }
+
