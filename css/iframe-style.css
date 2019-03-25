@@ -1148,4 +1148,47 @@
     color: #989797;
   }
 
+  /* BOTTOM AND RIGHT BOARDERS OF IFRAME FOR MOBILE */
+  .bottom,
+  .right,
+  .mobile-left {
+    position: fixed;
+    background: black;
+  }
+
+  .right {
+    top: 0;
+    bottom: 0;
+    width: 4%;
+    right: 0;
+  }
+
+  .bottom {
+    left: 0;
+    right: 0;
+    height: 5.5%;
+    bottom: 0;
+  }
+
+  .mobile-left {
+    top: 10%;
+    bottom: 0;
+    width: 4%;
+    left: 0;
+  }
+
+
+  .iframe {
+    /* Mobile Iframe */
+    position: absolute;
+    margin-left: 4.05%;
+    bottom: 5.4%;
+    height: 84.2%;
+    width: 91.983%;
+    border: black;
+
+  }
+}
+
+
 
