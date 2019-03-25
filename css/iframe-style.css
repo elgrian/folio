@@ -198,3 +198,52 @@
     display: none;
   }
 
+  .toggle-nav-off {
+    display: none;
+  }
+
+  /* Code for the side-bar starts here */
+  .side-bar {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    width: 10%;
+    /* Initial width according to size of image  */
+    height: calc(100%);
+    background: black;
+    color: white;
+    overflow: hidden;
+    /*gives as the List is having width larger than the initial width of the side-bar */
+    transition: all .3s ease;
+  }
+
+  .side-bar {
+    width: 10%;
+  }
+
+  /* .side-bar-left {
+    position: absolute;
+    top: 3%;
+    left: 0%;
+    width: 60px; */
+  /* Initial width according to size of image  */
+  /* height: calc(100% - 56px);
+    background: black;
+    color: white;
+    overflow: hidden; */
+  /* Imp to give as the List is having width larger than the initial width of the side-bar */
+  /* transition: all .3s ease;
+    width: 250px;
+  } */
+
+
+  .item-list {
+    list-style: none;
+    width: 100%;
+    left: -28%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+  }
+
