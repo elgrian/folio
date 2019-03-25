@@ -296,4 +296,55 @@
 
   }
 
+  .item #flickr {
+    width: 5vw;
+    height: 9vh;
+    margin-left: calc(100% - 0.1489vw);
+  }
+
+  .item #dribble {
+    width: 5.2vw;
+    height: 9vh;
+    margin-left: calc(100% + 1.3vw);
+    ;
+  }
+
+  .item #pinterest {
+    width: 4.9vw;
+    height: vh;
+    margin-left: calc(100% + 1.505vw);
+  }
+
+  /* Code for the HOVER effect on the list items */
+  .item::before {
+    transform: scaleY(0);
+    width: 1%;
+    transition: transform .2s ease, width .3s .2s ease;
+  }
+
+  .sub-item::before {
+    width: 0px;
+    transition: transform .1s ease, width .2s .1s ease;
+  }
+
+  .item::before,
+  .sub-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: linear-gradient(to bottom right, #ff506e, black);
+    z-index: -1;
+  }
+
+  .item:hover::before {
+    transform: scaleY(1);
+  }
+
+  .item:hover::before,
+  .sub-item:hover::before {
+    width: 100%;
+  }
+
 
