@@ -396,4 +396,56 @@
     opacity: 1;
   }
 
+  :target .modal-item {
+    transform: translate(-50%, -50%) scale(3);
+  }
+
+
+  .iframe {
+    /* 1440p monitor */
+    position: absolute;
+    margin-left: 10.031%;
+    bottom: 5.50%;
+    height: 87.65%;
+    width: 85.99%;
+    border: black;
+
+  }
+}
+
+
+@media screen and (min-height: 822px) {
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    box-sizing: border-box !important;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover,
+  a:link,
+  a:active {
+    text-decoration: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+    {
+    margin: 0;
+  }
 
