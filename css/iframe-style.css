@@ -1046,4 +1046,54 @@
     transition: all .3s ease;
   }
 
+  .item-img {
+    margin-right: 60%;
+    width: 1000%;
+    height: 10%;
+    padding: 0% 5%;
+    position: relative;
+    left: 35%;
+    /* justify-content: flex-end; */
+    transition: all .3s ease;
+  }
+
+
+  .item #instagram {
+    position: relative;
+    width: calc(3vh + 10vw);
+    height: calc(3vw + 6.8vh);
+    margin-left: 5%;
+    margin-top: -1%;
+  }
+
+  .item #etsy {
+    position: relative;
+    width: calc(3vh + 15vh);
+    height: calc(3vw + 7vh);
+    margin-left: -42vw;
+    margin-top: 1%;
+  }
+
+  .item #behance {
+
+    margin-left: -415%;
+    margin-top: 0%;
+    width: 18vw;
+    height: 11vh;
+  }
+
+  .item #flickr {
+    margin-left: -130%;
+    margin-top: -1%;
+    width: calc(3vh + 11vw);
+    height: calc(3vw + 7.5vh);
+  }
+
+  .item #dribble {
+    margin-left: -390%;
+    margin-top: -1%;
+    width: calc(3vh + 10vw);
+    height: calc(3vw + 6.5vh);
+
+  }
 
