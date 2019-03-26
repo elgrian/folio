@@ -7,4 +7,4 @@
 <li style="font-weight: 400; text-align: left;"><span style="font-weight: 400;">Love saving time? So do we! Although the time spent navigating through tabs may seem insignificant, it adds up over time and so does the frustration when you have 40 tabs.</span></li>
 </ul>
 <p>&nbsp;</p>
-<p><span style="font-weight: 400;"><img src="https://imgur.com/a/Ej01uwO" width="700" height="300 alt=" /></span></p>
+<p><span style="font-weight: 400;"><img src="https://i.imgur.com/YHh9Rq8.png" width="700" height="300 alt=" /></span></p>
