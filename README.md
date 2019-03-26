@@ -1,4 +1,4 @@
-<h1 style="text-align: center;"><strong><img src="https://imgur.com/a/Ej01uwO" alt="" width="700" height="300" />folio</strong></h1>
+# folio
 <p style="text-align: center;"><strong><span style="font-weight: 400;">Painless, and efficient</span></strong></p>
 <hr />
 <h2 style="text-align: right;"><strong>Why folio?</strong></h2>
