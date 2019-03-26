@@ -16,6 +16,12 @@
 <br>
 <h1><strong>They do with us!</strong></h1>
 <p><img src="https://i.imgur.com/5A3EN2i.gif" width="900" height="500 alt="></p>
+<br>
+<br>
+<h1><strong>Double the Fun</strong></h1>
+<br>
+<p><strong><span>Laptops aren’t exactly pocket-sized, but luckily most of us have a contraption that is (hint: iPhones, anyone?). Achieve organizational perfection on your smartphone AND computer. Who said you can’t have it all??</span></strong></p>
+
 
 
 
