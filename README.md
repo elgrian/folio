@@ -13,4 +13,4 @@
 <h1><strong>iFrames don't work?</strong></h1>
 <br>
 
-<p><span style="font-weight: 400;"><img src="https://i.imgur.com/Lctt3qr.gif" width="900" height="500 alt=" /></span></p>
+<p><span style="font-weight: 400;"><img src="https://i.imgur.com/Lctt3qr.gif" width="600" height="500 alt=" /></span></p>
